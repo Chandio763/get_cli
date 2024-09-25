@@ -1,0 +1,88 @@
+{
+  "ask": {
+    "existing_page": "پیج [%s] پہلے سے موجود ہے، کیا آپ اسے اوور رائٹ کرنا چاہتے ہیں؟",
+    "name_to_project": "پراجیکت کا نام کیا ہے؟",
+    "company_domain": "آپ کی کمپنی کی ڈومین کیا ہے؟",
+    "model_name": "ماڈل کا نام خود بخود سیٹ نہیں کیا جا سکا، آپ کون سا نام استعمال کرنا چاہتے ہیں؟",
+    "package_already_installed": "پیکیج: %s پہلے سے انسٹال ہے، کیا آپ اپ ڈیٹ کرنا چاہتے ہیں؟",
+    "lib_not_empty": "آپ کا lib فولڈر خالی نہیں ہے۔ کیا آپ واقعی اپنی درخواست کو اوور رائٹ کرنا چاہتے ہیں؟ \\n وارننگ: یہ عمل ناقابل واپسی ہے۔",
+    "ios_lang": "آپ ios پر کون سی زبان استعمال کرنا چاہتے ہیں؟",
+    "android_lang": "آپ اینڈرائیڈ پر کون سی زبان استعمال کرنا چاہتے ہیں؟",
+    "use_null_safe": "کیا آپ null safe استعمال کرنا چاہتے ہیں؟",
+    "use_linter": "کیا آپ کچھ Lints استعمال کرنا چاہتے ہیں؟",
+    "new_page_name": "پیج کا نیا نام کیا ہے؟"
+  },
+  "error": {
+    "failed_to_connect": "%s کے ساتھ connection میں ناکام",
+    "no_valid_file_or_url": "%s ایک فائل یا درست url نہیں ہے۔",
+    "unnecessary_parameter": "%s parameter ضروری نہیں ہے۔",
+    "unnecessary_parameter_plural": "%s parameters ضروری نہیں ہیں۔",
+    "nonexistent_directory": "%s ڈائریکٹری موجود نہیں ہے۔",
+    "empty_directory": "%s خالی ہے۔",
+    "invalid_json": "%s ایک درست json فائل نہیں ہے۔",
+    "special_characters_in_key": "key میں خصوصی حروف کی اجازت نہیں ہے۔ \\n key: %s",
+    "required_path": "فائل یا ڈائریکٹری کا path پاس کرنا ضروری ہے۔",
+    "invalid_dart": "%s درست dart فائل نہیں ہے۔",
+    "invalid_file_or_directory": "%s ایک درست file یا folder نہیں ہے۔",
+    "package_not_found": "پیکیج: %s pub.dev میں نہیں ملا",
+    "cli_version_not_found": "آپ کے انسٹال کردہ version کو تلاش کرنے میں ناکام۔",
+    "update_cli": "get_cli کو اپ گریڈ کرنے میں ایک error تھی۔",
+    "folder_not_found": "فولڈر %s نہیں ملا",
+    "file_not_found": "فائل %s  نہیں ملی رہی ",
+    "access_denied": "%s تک رسائی مسترد کر دی گئی۔",
+    "unexpected": "غیر متوقع مسٰلہ پیش آگیا:",
+    "no_package_to_remove": "اس پیکیج کا نام درج کریں جسے آپ ہٹانا چاہتے ہیں۔"
+  },
+  "example": ":مثال",
+  "warning": ":انتباہ",
+  "hint": {
+    "create": {
+      "controller": "Generate controller",
+      "page": "Use to generate pages",
+      "project": "Use to generate new project",
+      "provider": "Create a new Provider",
+      "screen": "Generate new screen",
+      "view": "Generate view"
+    },
+    "generate": {
+      "locales": "Generate translation file from json files",
+      "model": "generate Class model from json"
+    },
+    "help": "Show this help",
+    "init": "generate the chosen structure on an existing project:",
+    "install": "Use to install a package in your project (dependencies):",
+    "remove": "Use to remove a package in your project (dependencies):",
+    "sort": "Sort imports and format dart files",
+    "update": "To update GET_CLI",
+    "version": "Shows the current CLI version'"
+  },
+  "info": {
+    "unnecessary_flag": "The %s is not necessary",
+    "unnecessary_flag_prural": "The %s are not necessary",
+    "package_not_installed": "Package: %s is not installed in this application",
+    "cli_last_version_already_installed": "Latest version of get_cli already installed",
+    "no_file_overwritten": "No files were overwritten",
+    "update_available": "There's an update available! Current installed version: %s",
+    "update_available2": "New version available: %s Please, run:"
+  },
+  "options": {
+    "yes": "Yes!",
+    "no": "No",
+    "rename": "I want to rename"
+  },
+  "optional_parameters": "Optional parameters: %s",
+  "sucess": {
+    "page_create": "%s page created successfully.",
+    "locale_generate": "locale files generated successfully.",
+    "getx_pattern_generated": "GetX Pattern structure successfully generated.",
+    "clean_Pattern_generated": "CLEAN Pattern structure successfully generated.",
+    "file_formatted": " '%s' was successfully formatted",
+    "package_removed": "Package: %s removed!",
+    "package_installed": "'Package: %s installed!",
+    "update_cli": "Upgrade complete",
+    "add_controller_in_bindings": "The %s has been added to binding at path: %s'",
+    "navigation_added": "%s navigation added successfully.",
+    "file_created": "File: %s created successfully at path: %s",
+    "route_created": "%s route created successfully."
+  }
+}
